@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jslee showroom</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
+    <script src="./js/javascript.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="tit">
+                <div class="realwrap">
+                    <h1 class="logo"><a href="#">Jinseon Lee</a></h1>
+                    <span>Always enjoy learning new things.</span>
+                </div>
+            </div>
+
+            <nav>
+                <ul class="gnb">
+                    <li><a href="#"><span>About Me</span></a></li>
+                    <li><a href="#"><span>UI/UX Design</span></a></li>
+                    <li><a href="#"><span>Web Portfolio</span></a></li>
+                    <!-- <li><a href="#"><span>Graphics</span></a></li> -->
+                    <li><a href="#"><span>My Project</span></a></li>
+                </ul>
+
+                <p class="top"><a href="#">TOP</a></p>
+            </nav>
+        </header>
+
+        <section class="main realwrap">
+            <h2 class="sr-only">Main Visual Slide</h2>
+
+            <div class="visual">
+                <div class="filter"></div>
+                
+                <div class="shadow">
+                    <div class="lang">
+                        <span class="bar">Language</span>
+
+                        <div class="desc">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>jQuery</li>
+                            </ul>
+                            
+                            <p>
+                                <strong>+ <em>α</em></strong>
+                                : Ready to learn <span>new things</span>
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="webstyle">
+                        <span class="bar">My Web Style</span>
+                        <span class="star">*</span>
+
+                        <div class="desc">
+                            <ul>
+                                <li>#Semantic</li>
+                                <li>#Easy to Access</li>
+                                <li>#Purpose-driven <span>Design</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <ul class="slide">
+                    <li><img src="./images/profile-visual-slide1.jpg" alt="Coding"></li>
+                    <li><img src="./images/profile-visual-slide2.jpg" alt="Web Planning"></li>
+                    <li><img src="./images/profile-visual-slide3.jpg" alt="Code & Results"></li>
+                </ul>
+
+                <div class="pagination">
+                    <ol>
+                        <li class="on"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="conts realwrap">
+            <h2 class="sr-only">컨텐츠</h2>
+
+            <article id="aboutme">
+                <h3 class="topic">About Me</h3>
+                
+                <!-- 프로필 -->
+                <div class="aboutme-profile">
+                    <div class="aboutme-profile-intro">
+                        <h5 class="name">
+                            <strong>이진선</strong> Jinseon Lee / 李晋先 <br />
+                            a.k.a. Asterholic
+                        </h5>
+
+                        <div class="cont birth">
+                            <span class="question">Hello World!</span>
+                            
+                            <p class="response">91. 04. 22</p>
+                        </div>
+                    </div>
+                    
+                    <div class="aboutme-profile-cont">
+                        
+                        <div class="cont fav">
+                            <span class="question">Favorites</span>
+
+                            <ul class="list">
+                                <li>
+                                    <div>재즈</div>
+                                </li>
+                                <li>
+                                    <div>악기</div>
+                                </li>
+                                <li>
+                                    <div>그림</div>
+                                </li>
+                                <li>
+                                    <div>사진</div>
+                                </li>
+                                <li>
+                                    <div>디저트</div>
+                                </li>
+                                <li>
+                                    <div>달리기 운동</div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="cont stress">
+                            <span class="question">When stressed, I do</span>
+
+                            <ul class="list">
+                                <li>
+                                    <div>느낌 있는 <span>음악 듣기</span></div>
+                                </li>
+                                <li>
+                                    <div>달리기</div>
+                                </li>
+                                <li>
+                                    <div>유튜브 서핑</div>
+                                </li>
+                                <li>
+                                    <div>야구 응원</div>
+                                </li>
+                                <li>
+                                    <div>요리</div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="cont lang">
+                            <span class="question">Languages</span>
+
+                            <ul class="list">
+                                <li>
+                                    <div>HTML5</div>
+                                </li>
+                                <li>
+                                    <div>CSS3</div>
+                                </li>
+                                <li>
+                                    <div>Javascript</div>
+                                </li>
+                                <li>
+                                    <div>jQuery</div>
+                                </li>
+                                <li>
+                                    <strong>+</strong> 더 배울 의욕 충만함!
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="cont tool">
+                            <span class="question">Tools</span>
+
+                            <ul class="list">
+                                <li>
+                                    <div>VS Code <span>수준 : 상</span></div>
+                                    <p class="level"></p>
+                                </li>
+                                <li>
+                                    <div>Notepad++ <span>수준 : 상</span></div>
+                                    <p class="level"></p>
+                                </li>
+                                <li>
+                                    <div>Photoshop <span>수준 : 중</span></div>
+                                    <p class="level"></p>
+                                </li>
+                                <li>
+                                    <div>MS Excel <span>수준 : 상</span></div>
+                                    <p class="level"></p>
+                                </li>
+                                <li>
+                                    <div>MS Powerpoint <span>수준 : 상</span></div>
+                                    <p class="level"></p>
+                                </li>
+                                <li>
+                                    <div>MS Word <span>수준 : 상</span></div>
+                                    <p class="level"></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 에세이 -->
+                <div class="aboutme-essay">
+                    <h5 class="aboutme-essay-tit">
+                        문제 해결 과정을 즐기는 웹퍼블리셔가 되겠습니다
+                    </h5>
+                    <div class="aboutme-essay-cont">
+                        <p>
+                            <span>
+                                공대를 나온 비전공자로서 웹퍼블리싱이라는 새로운 분야를 도전한 동기는 <br />
+                                <em>'좋아하고 즐길 수 있는 일'</em>을 하고 싶다는 생각이었습니다. <br />
+                                학창 시절에는 프로그래밍을 배우면서, 회사에서는 직접 업무용 파일을 만들면서 <br />
+                                어려움을 겪으면서도 하나씩 해결해 가는 것이 즐거웠고, <br />
+                                포토샵과 손그림을 이용해 블로그를 꾸미느라 시간 가는 줄 모르기도 했습니다. <br />
+                                이 두 가지의 접점에 있는 <em>웹퍼블리싱</em>은, 그만큼 즐길 수 밖에 없는 분야였고, <br />
+                                배움의 기간이 늘어나면서 그걸 확신하고 있습니다.
+                            </span>
+                        </p>
+                        
+                        <p>
+                            <span>
+                                작업할 때 <em>언제나 사용자나 함께 일할 사람을 염두에 두고,</em> <br />
+                                이해를 못 하는 부분이나 사용하지 못하는 기능이 생기지 않게 <br />
+                                작은 것 하나도 <em>알아보기 쉽게</em>, <em>실행하고 싶어하게</em> 만들려고 신경 씁니다. <br />
+                                또한, 문제나 추가 요청사항이 생기면 어떻든 <em>끝까지 붙잡고 고민하며</em>, 결국 해결하고 구현해 냅니다. <br />
+                                이때의 <em>성취감</em>과 <em>만족감</em> 때문에 문제 해결을 더욱 즐기게 됩니다.
+                            </span>
+                        </p>
+                        
+                        <p>
+                            <span>
+                                그렇기에, <em>문제 해결 과정을 즐기는 웹퍼블리셔</em>로서 <em>Long-run</em>하는 사람이 되고 싶습니다. <br />
+                                학창 시절 프로그래밍과 블로그 디자인을 할 때의 그 열정처럼 앞으로도 즐기면서,<br />
+                                한편으로는 끝없이 탐구하며 <em>기술과 트렌드 모두 트렌디한 퍼블리셔</em>이고 싶습니다. <br />
+                                팀원으로서는 해야 할 업무를 빠르게 파악해 <em>믿고 맡길 수 있는 사람</em>이 되고 싶으며, <br />
+                                협업자로서는 타 팀의 업무와 요청사항을 잘 이해하고 <br />
+                                <em>든든한 도움이 될 수 있는 사람</em>이 되도록 꾸준히 성장하겠습니다.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                
+            </article>
+            
+            <article id="uiux">
+                <h3 class="topic">UI/UX Design</h3>
+                
+                <!-- 비주얼 (웹페이지 스타일) -->
+                <div class="aboutme-visual">
+                    <div class="ft1">
+                        <h5 class="tag">#목적 기반 디자인</h5>
+                        <p>
+                            사용 목적과 디자인 의도를 고려한, 직관적/ 편리한/ 간결한 디자인 추구! <br />
+                            사용자가 원하는 구성/기능을 반영해 Semantic 동적웹으로 구현
+                        </p>
+                    </div>
+                    
+                    <div class="ft2">
+                        <h5 class="tag">#접근하기 쉬운 UI</h5>
+                        <p>
+                            누구라도, 처음 다루어도 어려움이나 실수 없이 사용 가능한 것이 좋은 UI! <br />
+                            사람도, 브라우저도, 검색엔진도 <span>쉽게 읽어내고 이해하는 UI 추구</span>
+                        </p>
+                    </div>
+                    
+                    <div class="ft3">
+                        <h5 class="tag">#쉽게 각인되는 UX</h5>
+                        <p>
+                            세련되고 접근이 쉬운 UI, <span>명확한 컨텐츠 디자인으로</span>
+                            사용자에게 확실한 메시지와 <span>긍정적 경험을 제공하는 UX 추구</span>
+                        </p>
+                    </div>
+    
+                    <div class="ft4">
+                        <h5 class="tag">#사용자 측면 문제 분석</h5>
+                        <p>
+                            Problem 해결, Needs 충족을 위해, 사용자의 입장이 되어<br />
+                            Problem을 다방면으로 분석, <span>그에 맞는 Solution 도출</span>
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article id="webpofol">
+                <h3 class="topic">Web Portfolio</h3>
+                <p>
+                    공사 중입니다.
+                </p>
+            </article>
+
+            <!-- <article id="graphics">
+                <h3 class="topic">Graphics</h3>
+                <p>
+                    공사 중입니다.
+                </p>
+            </article> -->
+            
+            <article id="my-project">
+                <h3 class="topic">My Project</h3>
+                <p>
+                    공사 중입니다.
+                </p>
+            </article>
+        </section>
+        
+        <footer>
+            <div class="realwrap">
+                <h2 class="ftlogo"><a href="#">Jinseon Lee</a></h2>
+                <div class="ftcont">
+                    <address>&copy; Copyright 2021 Designed by Jinseon Lee</address>
+                    <p class="phrase">MVC 패턴 디자인과 Javascript & jQuery 로직을 이용</p>
+                    <p class="phrase">접근성 좋은 시멘틱 웹, 목적 기반 디자인을 구현하는 웹퍼블리셔</p>
+                </div>
+                
+                <p class="contact">
+                    <i class="fas fa-phone-alt"></i><a href="tel:01028583405">010-2858-3405</a>
+                    <span>|</span>
+                    <i class="fas fa-envelope"></i><a href="mailto:asterholic@gmail.com">asterholic@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/jinseon-lee-1b2348154/" class="linkedin" target="_blank">LinkedIn</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

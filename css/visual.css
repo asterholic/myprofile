@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+/* section - visual 부분 */
+
+section.main{
+    position: relative;
+    width: 100%;
+}
+
+section>.visual{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+section>.visual>.shadow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 500;
+}
+
+section>.visual .filter{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    z-index: 400;
+}
+
+section>.visual>.shadow .bar{
+    display: block;
+    position: absolute;
+    width: 480px;
+    height: 1px;
+    text-indent: -9999px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+}
+
+section>.visual>.shadow>.lang{
+    position: absolute;
+    left: 80px;
+    bottom: 50%;
+}
+
+section>.visual>.shadow>.lang .bar{
+    left: -250px;
+    bottom: -150%;
+    width: 760px;
+}
+
+section>.visual>.shadow>.lang>.desc{
+    margin-bottom: -190px;
+}
+
+section>.visual>.shadow>.lang ul>li{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+section>.visual>.shadow>.lang p{
+    font-size: 20px;
+}
+
+section>.visual>.shadow>.lang p>strong{
+    display: block;
+    color: #ffe400;
+    margin: 18px 0 18px;
+    font-weight: 600;
+    font-size: 56px;
+}
+
+section>.visual>.shadow>.lang p>strong>em{font-style: italic;}
+
+section>.visual>.shadow>.lang p>span{display: block;}
+
+section>.visual>.shadow>.webstyle{
+    position: absolute;
+    right: 120px;
+    top: 70%;
+}
+
+section>.visual>.shadow>.webstyle>.desc{
+    margin-top: -95px;
+}
+
+section>.visual>.shadow>.webstyle>.bar{
+    right: -290px;
+    top: -430%;
+    width: 760px;
+}
+
+section>.visual>.shadow>.webstyle>.star{
+    display: block;
+    position: absolute;
+    right: 360px;
+    top: -120px;
+    margin-top: -40px;
+    color: #ffe400;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+section>.visual>.shadow>.webstyle ul>li{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+section>.visual>.shadow>.webstyle ul>li>span{
+    display: block;
+    text-indent: 26px;
+}
+
+section>.visual>.slide{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 300;
+}
+
+section>.visual>.slide>li{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+}
+
+section>.visual>.slide>li.on{display: block;}
+
+section>.visual>.slide>li>img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -960px;
+    margin-top: -540px;
+    transform: scale(1.22);
+    transition: all 5s;
+}
+
+section>.visual>.slide>li.on>img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -960px;
+    margin-top: -540px;
+    transform: scale(1);
+}
+
+section>.visual>.pagination{
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+    width: 250px;
+    height: 2px;
+    margin-left: -125px;
+    z-index: 1000;
+}
+
+section>.visual>.pagination>ol{
+    display: flex;
+    justify-content: space-between;
+}
+
+section>.visual>.pagination>ol>li{
+    width: 80px;
+    height: 2px;
+    background-color: #626262;
+}
+
+section>.visual>.pagination>ol>li>a{
+    display: block;
+    height: 2px;
+    padding-top: 4px;
+    text-indent: -9999px;
+}
+
+section>.visual>.pagination>ol>li.on{
+    background-color: #ffe400;
+}
+
+@media screen and (max-width: 1200px){
+    .realwrap{width: 992px;}
+}

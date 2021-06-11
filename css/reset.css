@@ -1,0 +1,61 @@
+@charset "UTF-8"; /* 반드시 맨 위에 표시해 달라. */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+html,body{width:100%;height:100%;}
+		
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,a,
+code,blockquote,abbr,sub,sup,time,em,strong,
+img,q,dl,dt,dd,address,cite,ul,ol,li,
+header,section,footer,article,nav,aside,
+table,caption,thead,tbody,tfoot,tr,td,th,
+form,fieldset,legend,label
+{margin:0;padding:0;}
+
+em,address{font-style:normal;}
+
+hr,caption,legend{display:none;}
+
+img,fieldset{border:none;}
+
+label,button{cursor: pointer;}
+
+body{
+	color: #626262;
+	font-size:12px;
+	line-height:1.2;
+	font-family: 'Open Sans', 'Noto Sans KR', "NanumGothic", sans-serif, 돋움, 굴림;
+}
+
+.text-center{
+	height: 100px;
+	line-height:100px;
+	text-align:center;
+}		
+
+ul,ol,li{list-style:none;}
+q{quotes:none;}
+table{border-collapse: collapse;border-spacing: 0;}
+textarea{resize: none;}
+
+a:link{color: #626262;text-decoration:none;}
+a:visited{color: #626262;}
+a:hover{color: #626262;}
+a:active{color: #626262;}
+
+.text-hide{display:none;}
+
+/* 스크린리더가 읽을 수 있어 접근성이 향상됨 */
+.sr-only{
+	position: absolute;
+	left: -9999px;
+}
+
+/* float 배열 사용 시 해당 요소의 부모 요소에 clearfix class 부여 */
+.clearfix{*zoom: 1;}
+
+.clearfix:after{
+    display: block;
+    clear: both;
+    content: '';
+}
